@@ -7,20 +7,26 @@ Please provide the following:
 - **Tagline**: Making investing stress-free for the masses.
 - **Description**: SuprWealth aims to make investing easier, less time-consuming, and highly rewarding regardless of the investor's expertise. Think of it as the next-generational hedge fund that's built not just for the wealthy, but for everyone. We eliminate the need for learning to invest. That era is long gone! Instead, Invest, sit back, and relax while our autonomous trading engine does the heavy lifting.
 - **Polkadot Integration**: SuprWealth is poised to leverage Polkadot’s secure and scalable infrastructure as we scale our platform. We plan to launch a native token on Polkadot to drive utility features such as rewards, governance, and premium access. By integrating with Polkadot, we aim to bring real-world financial tools into the Web3 space, driving mainstream adoption and creating new opportunities for the Polkadot ecosystem as we grow.
-- **Why We’re Interested**: 
+- **Why We’re Interested**: The world doesn’t need another complex investing app. What people truly crave, often silently, is a way to grow their money without stress, without noise, without needing to become financial experts. We believe investing was never meant to be chaotic or time-consuming. It was meant to work quietly for you. SuprWealth isn’t reinventing investing. We’re restoring it to what it was always supposed to be. A calm, smart, and effortless path to wealth that is built for everyone.
 - **Pitch Video**: 
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+- **Technology Stack**:
+  - **Frontend & Backend**: Built with **Next.js** for a seamless full-stack experience.
+  - **Authentication**: Handled using **Clerk**, ensuring secure and scalable user auth.
+  - **Database**: **PostgreSQL** for structured, reliable storage of user and transaction data.
 
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations that might not be obvious
+- **Core Components**:
+  - **Website**: A clean, minimal interface for users to invest and monitor their balance.
+  - **Beta Investment Feature**: A monthly compounding mechanism targeting **3.5%** growth for users participating in the beta program.
+  - **Transaction Management**: Every deposit, withdrawal, and gain is tracked through a dedicated transactions table for full transparency.
+
+- **MVP**: Live with a **beta version** where users can invest and see their money grow at a rate of 3.5% monthly. Access is currently limited to beta users.
+
+- **Limitations**:
+  - **No insurance**: Funds are not protected. Users may lose their full investment.
+  - **Beta access only**: Platform is currently open to a closed group of beta testers.
 
 ### Ecosystem Fit
 
